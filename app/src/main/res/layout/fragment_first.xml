@@ -8,6 +8,7 @@
     android:background="#FFFF00">
 
     <Button
+        android:id="@+id/toastBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="프래그먼트에서 토스트 띄우기" />
