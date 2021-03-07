@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="15dp"
-    android:background="#FFFF00">
+    android:background="#ff0000">
 
     <Button
-        android:id="@+id/toastBtn"
+        android:id="@+id/secondToastBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="프래그먼트에서 토스트 띄우기" />
+        android:text="두번째 프래그먼트" />
+
 
 
 </LinearLayout>
