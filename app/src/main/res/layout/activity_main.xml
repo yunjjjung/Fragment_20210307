@@ -9,22 +9,35 @@
     tools:context=".MainActivity">
 
 
-    <fragment
-        android:id="@+id/firstFrag"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        class="com.thejoeun.fragment_20210307.fragments.FirstFragment"/>
+        android:layout_height="match_parent">
 
-    <fragment
-        android:id="@+id/secondFrag"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        class="com.thejoeun.fragment_20210307.fragments.SecondFragment"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <fragment
-        android:id="@+id/firstFrag2"
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        class="com.thejoeun.fragment_20210307.fragments.FirstFragment"/>
+            <fragment
+                android:id="@+id/firstFrag"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                class="com.thejoeun.fragment_20210307.fragments.FirstFragment"/>
+
+            <fragment
+                android:id="@+id/secondFrag"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                class="com.thejoeun.fragment_20210307.fragments.SecondFragment"/>
+
+            <fragment
+                android:id="@+id/firstFrag2"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                class="com.thejoeun.fragment_20210307.fragments.FirstFragment"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
