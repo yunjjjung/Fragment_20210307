@@ -21,4 +21,10 @@
         android:layout_height="300dp"
         class="com.thejoeun.fragment_20210307.fragments.SecondFragment"/>
 
+    <fragment
+        android:id="@+id/firstFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        class="com.thejoeun.fragment_20210307.fragments.FirstFragment"/>
+
 </LinearLayout>
